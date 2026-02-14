@@ -109,9 +109,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {           //shortens long sentence for mobile screens
-            drawTextWithLineBreaks(["amongst trillions and trillions of stars,", "over billions of years"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["No matter the distance, you are my home"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("amongst trillions and trillions of stars, over billions of years", canvas.width/2, canvas.height/2);
+            context.fillText("No matter the distance, you are my home", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
@@ -120,9 +120,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
         
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["amongst trillions and trillions of stars,", "over billions of years"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["No matter the distance, you are my home"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("amongst trillions and trillions of stars, over billions of years", canvas.width/2, canvas.height/2);
+            context.fillText("No matter the distance, you are my home", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity - 0.01;
@@ -147,12 +147,12 @@ function drawText() {
     }
     if(frameNumber > 1500 && frameNumber < 1750){
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
-        context.fillText("is so incredibly, unfathomably unlikely", canvas.width/2, canvas.height/2);
+        context.fillText("is so incredibly, a blessing I never saw coming", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
     if(frameNumber >= 1750 && frameNumber < 2000){
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
-        context.fillText("is so incredibly, unfathomably unlikely", canvas.width/2, canvas.height/2);
+        context.fillText("is so incredibly, a blessing I never saw coming", canvas.width/2, canvas.height/2);
         opacity = opacity - 0.01;
     }
 
@@ -163,9 +163,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["and yet here I am to get the impossible", "chance to get to know you"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["Until I can kiss you in person, accept this promise of love — be my Valentine."], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("and yet here I am to get the impossible chance to get to know you", canvas.width/2, canvas.height/2);
+            context.fillText("Until I can kiss you in person, accept this promise of love — be my Valentine.", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
@@ -174,9 +174,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["and yet here I am to get the impossible", "chance to get to know you"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["Until I can kiss you in person, accept this promise of love — be my Valentine."], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("and yet here I am to get the impossible chance to get to know you", canvas.width/2, canvas.height/2);
+            context.fillText("Until I can kiss you in person, accept this promise of love — be my Valentine.", canvas.width/2, canvas.height/2);
         }
         
         opacity = opacity - 0.01;
